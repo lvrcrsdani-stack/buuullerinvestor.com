@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>NovaQuant</title><style>
+body{margin:0;background:#07111f;color:#eef4ff;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif}
+header{height:62px;background:#0b1628;border-bottom:1px solid #1f2e45;display:flex;align-items:center;justify-content:space-between;padding:0 18px}
+.logo{font-weight:900}.demo{font-size:12px;color:#facc15;border:1px solid #5a4b12;padding:6px 10px;border-radius:99px}
+main{padding:16px;max-width:900px;margin:auto}
+.card{background:#0d1a2e;border:1px solid #1f2e45;border-radius:18px;padding:18px;margin-bottom:16px}
+h1{margin:0;font-size:26px}.muted{color:#91a3bc;margin-top:5px}.price{font-size:38px;font-weight:900;margin:14px 0}.loss{color:#ff5c70}
+.tabs span{font-size:12px;background:#0a1527;border:1px solid #1f2e45;padding:6px 9px;border-radius:8px;margin-right:4px}.tabs .on{background:#203756;color:white}
+.chart{height:310px;margin-top:12px;border-radius:16px;background:#081426;border:1px solid #172842;position:relative;overflow:hidden}
+.chart:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(to right,rgba(255,255,255,.055) 0 1px,transparent 1px 72px),repeating-linear-gradient(to bottom,rgba(255,255,255,.055) 0 1px,transparent 1px 52px)}
+svg{position:absolute;inset:0;width:100%;height:100%}.cross{position:absolute;left:70%;top:0;bottom:0;width:1px;background:rgba(255,255,255,.18)}
+.dot{position:absolute;left:calc(70% - 5px);top:228px;width:10px;height:10px;background:#ff5c70;border:2px solid #081426;border-radius:50%;box-shadow:0 0 0 4px rgba(255,92,112,.15)}
+.tip{position:absolute;left:calc(70% - 92px);top:150px;background:#101d31;border:1px solid #2a3f60;border-radius:12px;padding:10px 12px;font-size:12px}.tip b{display:block;font-size:15px}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}.stat{background:#0a1527;border:1px solid #1d2b43;border-radius:14px;padding:14px}
+.label{font-size:13px;color:#8fa2bd}.value{font-size:22px;font-weight:800;margin-top:6px}
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:10px}.btn{padding:14px;border-radius:13px;text-align:center;font-weight:800}.buy{background:#12b981}.sell{background:#ef445a}
+table{width:100%;border-collapse:collapse;margin-top:12px}td{border-bottom:1px solid #1d2b43;padding:12px 0;color:#c8d4e6}td:last-child{text-align:right}
+small{color:#93a4bb}
+</style></head><body>
+<header><div class="logo">NQ NovaQuant Markets</div><div class="demo">SIMULAZIONE / DEMO</div></header>
+<main>
+<section class="card">
+<h1>QuantumStream Holdings</h1><p class="muted">QSH · Azione simulata · Intrattenimento digitale</p>
+<div class="price">€403,60 <span class="loss" style="font-size:18px">-42,34%</span></div>
+<div class="tabs"><span>1G</span><span>1S</span><span class="on">1M</span><span>3M</span><span>1A</span><span>Tutto</span></div>
+<div class="chart">
+<svg viewBox="0 0 900 310" preserveAspectRatio="none"><defs><linearGradient id="g" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="#ff5c70" stop-opacity=".28"/><stop offset="100%" stop-color="#ff5c70" stop-opacity="0"/></linearGradient></defs>
+<path d="M0,70 C35,63 62,82 95,78 C135,73 154,42 194,60 C232,77 247,106 286,98 C325,91 342,116 380,124 C420,133 442,105 482,132 C515,154 542,145 575,170 C608,195 635,178 668,207 C698,234 728,214 760,235 C795,258 830,238 900,272" fill="none" stroke="#ff5c70" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M0,70 C35,63 62,82 95,78 C135,73 154,42 194,60 C232,77 247,106 286,98 C325,91 342,116 380,124 C420,133 442,105 482,132 C515,154 542,145 575,170 C608,195 635,178 668,207 C698,234 728,214 760,235 C795,258 830,238 900,272 L900,310 L0,310 Z" fill="url(#g)"/>
+</svg><div class="cross"></div><div class="dot"></div><div class="tip">24 giu 2026<b class="loss">€57,66</b></div></div>
+<div class="stats">
+<div class="stat"><div class="label">Capitale investito</div><div class="value">€700,00</div></div>
+<div class="stat"><div class="label">Valore attuale</div><div class="value">€403,60</div></div>
+<div class="stat"><div class="label">Perdita non realizzata</div><div class="value loss">-€296,40</div></div>
+<div class="stat"><div class="label">Rendimento totale</div><div class="value loss">-42,34%</div></div>
+</div></section>
+<section class="card">
+<div class="btns"><div class="btn buy">Acquista</div><div class="btn sell">Vendi</div></div>
+<table><tr><td>Quantità</td><td>7,00 quote</td></tr><tr><td>Prezzo medio</td><td>€100,00</td></tr><tr><td>Prezzo attuale</td><td>€57,66</td></tr><tr><td>Variazione giorno</td><td class="loss">-3,18%</td></tr></table>
+<br><small>Dashboard dimostrativa con azienda, dati e performance inventati.</small>
+</section>
+</main></body></html>
